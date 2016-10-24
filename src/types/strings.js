@@ -45,3 +45,8 @@ console.log('y :', y);
 var string = '01234567899';
 console.log('substr(3,6) :', string.substr(3,6), 'extract a string from the third position with a length of 6');
 console.log('substring(3,6) :', string.substring(3,6), 'extract a string from the third position to the 6th');
+
+//case
+var string = '     ThisISaText    ';
+console.log('toLowerCase : ', string.toLowerCase(), 'put the in lower case & toUpperCase :', string.toUpperCase(), 'put the string in upper case');
+console.log('trim : ', string.trim(), 'removes spaces in front and after a string');
