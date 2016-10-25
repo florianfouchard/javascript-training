@@ -47,6 +47,6 @@ console.log('substr(3,6) :', string.substr(3,6), 'extract a string from the thir
 console.log('substring(3,6) :', string.substring(3,6), 'extract a string from the third position to the 6th');
 
 //case
-var string = '     ThisISaText    ';
+var string = '\t\nThis IS a Text    ';
 console.log('toLowerCase : ', string.toLowerCase(), 'put the in lower case & toUpperCase :', string.toUpperCase(), 'put the string in upper case');
-console.log('trim : ', string.trim(), 'removes spaces in front and after a string');
+console.log('trim : ', string.trim(), 'removes spaces in front and after a string and tab and saut de ligne');

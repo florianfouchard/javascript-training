@@ -200,6 +200,7 @@ var topics = [
                     name: "Sheldon"
                 },
                 content: "And it is a bit <strong>violent</strong> <script type='text/javascript'>alert('you are fired!')</script>"
+
             }
         ],
         tags: [
